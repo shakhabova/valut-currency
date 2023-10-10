@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Epilogue:300,400,500,600,700,800,900&amp;display=swap');
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "assets/css/font-awesome.min.css";
+@import "assets/css/uicons-regular-rounded.css";
+/* @import "assets/fonts/flaticon.css"; */
+@import "assets/css/animate.css";
+@import "assets/css/off-canvas.css";
+@import "assets/css/steps.css";
+@import "assets/css/magnific-popup.css";
+/* @import "assets/css/owl.carousel.css"; */
+@import "assets/css/rsmenu-main.css";
+/* @import "assets/css/nivo-slider.css";
+@import "assets/css/preview.css"; */
+
+@import "assets/css/rs-spacing.css";
+@import "assets/css/responsive.css";
+
+html, body {
+    font-size: 16px;
+    color: #666666;
+    font-family: 'Epilogue', sans-serif;
+    vertical-align: baseline;
+    line-height: 1.7;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #d20000;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+::selection {
+    background: #d20000;
+    text-shadow: none;
+    color: #ffffff;
+}

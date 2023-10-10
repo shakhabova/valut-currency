@@ -1,0 +1,247 @@
+.full-width-header {
+    position: relative;
+}
+
+.full-width-header .rs-header {
+    position: relative;
+}
+
+.full-width-header .rs-header .toolbar-area.topbar-style1 {
+    max-width: 1170px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+    padding: 0 20px;
+    background: #333;
+}
+
+.full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 46px;
+}
+
+.full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li i {
+    color: #d20000;
+    margin-right: 6px;
+}
+
+.full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li i:before {
+    font-size: 18px;
+    margin-left: 0;
+    position: relative;
+    top: 3px;
+}
+
+.full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li a {
+    color: #ffffff;
+}
+
+.full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix {
+    text-align: right;
+    margin: 0px;
+    padding: 0;
+}
+
+.full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix li {
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 13px;
+}
+
+.full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix li a i {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix li a i:hover {
+    color: #d20000;
+}
+
+.full-width-header .rs-header .menu-area {
+    position: relative;
+    transition: all 0.3s ease 0s;
+    z-index: 10;
+}
+
+.full-width-header .rs-header .menu-area .row-table {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.full-width-header .rs-header .menu-area .row-table .col-cell.header-logo {
+    display: flex;
+    flex: 1;
+}
+
+.full-width-header .rs-header .menu-area .row-table .col-cell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.full-width-header .rs-header .menu-area .logo-area img {
+    transition: 0.4s;
+    max-height: 60px;
+}
+
+.full-width-header .rs-header .menu-area .logo-area a .sticky-logo {
+    display: none;
+}
+
+.full-width-header .rs-header .menu-area .rs-menu-area {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.full-width-header .rs-header .menu-area .main-menu {
+    position: unset;
+}
+
+.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li {
+    display: inline-block;
+    margin-right: 32px;
+    padding: 0;
+}
+
+.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.current-menu-item > a {
+    color: #d20000 !important;
+}
+
+.full-width-header .rs-header .expand-btn-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.full-width-header .rs-header .expand-btn-inner ul {
+    display: flex;
+    align-items: center;
+}
+
+.full-width-header .rs-header .expand-btn-inner ul .btn-quote {
+    position: relative;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+.full-width-header .rs-header .expand-btn-inner ul .humburger {
+    display: none;
+}
+
+.full-width-header .rs-header .expand-btn-inner ul .btn-quote .quote-button {
+    font-size: 15px;
+    background: #d20000;
+    padding: 10px 30px;
+    border-radius: 0px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    top: 3px;
+    border-radius: 0 10px 0 10px;
+    border: 1px solid #d20000;
+}
+
+.full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar {
+    padding: 16px 13px 16px;
+    background: transparent;
+    max-width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    padding-right: 0;
+    margin-right: -4px;
+}
+
+.full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar {
+    padding: 16px 13px 16px;
+    background: transparent;
+    max-width: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    padding-right: 0;
+    margin-right: -4px;
+}
+
+.full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span {
+    height: 5px;
+    width: 5px;
+    display: block;
+    background: #d20000;
+    border-radius: 50%;
+    transition: none;
+    list-style: none;
+    transition: all 0.3s ease;
+    margin: 2px 3px;
+}
+
+.full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot2, .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot3, .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot4, .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot5, .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot6, .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot7, .full-width-header .rs-header .expand-btn-inner ul .humburger .nav-expander .bar span.dot8 {
+    background: #d20000;
+}
+
+.full-width-header .right_menu_togle .close-btn {
+    overflow: visible;
+    position: absolute;
+    top: 10px;
+    display: block;
+    z-index: 99;
+    right: 57px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.full-width-header .right_menu_togle .close-btn .nav-close .line {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.full-width-header .right_menu_togle .close-btn .nav-close .line span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 1px !important;
+    height: 25px !important;
+    background: #d20000;
+    border: none !important;
+    transition: all 0.3s ease;
+}
+
+.full-width-header .right_menu_togle .close-btn .nav-close .line span.line2 {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.full-width-header .mobile-navbar-menu .nav-menu li {
+    position: relative;
+}
+
+.full-width-header .mobile-navbar-menu .nav-menu li a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    display: block;
+    color: #333;
+    padding: 10px 0;
+    line-height: 30px;
+    width: 100%;
+}
+
+.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a {
+    transition: all 0.3s ease;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+    height: 108px;
+    line-height: 108px;
+    padding: 0;
+    color: #3B4052;
+    position: relative;
+    font-family: Epilogue;
+}
