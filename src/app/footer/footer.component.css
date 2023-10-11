@@ -1,0 +1,183 @@
+.rs-footer.footer-main-home {
+  background: #333;
+  background-size: cover;
+}
+.rs-footer.footer-main-home .footer-top {
+  padding: 85px 0 70px;
+}
+.rs-footer.footer-main-home .footer-top .footer-logo img {
+  height: 50px;
+  -webkit-filter: brightness(10%) invert(100%);
+  filter: brightness(10%) invert(100%);
+}
+.rs-footer.footer-main-home .footer-top .textwidget {
+  font-size: 16px;
+  color: #ffffff;
+}
+a {
+  color: #d20000;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.rs-footer.footer-main-home .footer-top .app-store {
+  display: flex;
+}
+
+.rs-footer.footer-main-home .footer-top .app-store li {
+  display: inline-block;
+  margin-right: 22px;
+}
+.rs-footer.footer-main-home .footer-top .app-store li a img {
+  opacity: 1;
+}
+
+.rs-footer.footer-main-home .footer-top .app-store li:last-child {
+  margin-right: 0;
+}
+.rs-footer.footer-main-home .footer-top .app-store li {
+  display: inline-block;
+  margin-right: 22px;
+}
+
+.rs-footer.footer-main-home .footer-top .footer-title {
+  position: relative;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 44px;
+}
+h3 {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 700;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Epilogue", sans-serif;
+  color: #032e42;
+  margin: 0 0 26px;
+  line-height: 1.2;
+}
+.rs-footer.footer-main-home .footer-top .footer-title:before {
+  content: "";
+  position: absolute;
+  border: 0;
+  width: 40px;
+  height: 3px;
+  background: #d20000;
+  z-index: 1;
+  margin-left: 0;
+  bottom: 0;
+  left: 0;
+}
+.rs-footer.footer-main-home .footer-top .site-map {
+  margin-top: -6px;
+}
+.rs-footer.footer-main-home .footer-top .site-map li {
+  margin-bottom: 5px;
+  position: relative;
+}
+.rs-footer.footer-main-home .footer-top .site-map li a {
+  font-size: 16px;
+  position: relative;
+  padding: 6px 0 6px 0px;
+  display: inline-block;
+  color: #ffffff;
+}
+.rs-footer.footer-main-home .footer-top .site-map li a:hover {
+    color: #d20000;
+}
+
+.rs-footer.footer-main-home .footer-top .address-widget li {
+  padding: 0 0 29px 40px;
+  position: relative;
+}
+.rs-footer.footer-main-home .footer-top .address-widget li i {
+  color: #d20000;
+  position: absolute;
+  left: 0;
+}
+.rs-footer.footer-main-home .footer-top .address-widget li i:before {
+  font-size: 24px;
+  position: relative;
+  top: 2px;
+}
+.rs-footer.footer-main-home .footer-top .address-widget li i {
+  color: #d20000;
+  position: absolute;
+  left: 0;
+}
+.rs-footer.footer-main-home .footer-top .address-widget li .desc {
+  color: #ffffff;
+}
+@media only screen and (max-width: 1366px) {
+  .rs-footer.footer-main-home .footer-top .address-widget li .desc br {
+    display: none;
+  }
+}
+.rs-footer.footer-main-home .footer-top .address-widget li .desc a {
+  color: #ffffff;
+}
+.rs-footer.footer-main-home .footer-top .address-widget li .desc a:hover {
+    color: #d20000;
+}
+.rs-footer.footer-main-home .footer-bottom {
+  background: #404040;
+  padding: 20px 0 20px 0;
+}
+.y-middle {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.rs-footer.footer-main-home .footer-bottom .footer-social li {
+    display: inline-block;
+    margin-right: 16px;
+}
+.rs-footer.footer-main-home .footer-bottom .footer-social li a span i {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 3px;
+    transition: all .8s ease;
+}
+.rs-footer.footer-main-home .footer-bottom .footer-social li a span i:hover {
+    color: #d20000;
+}
+.rs-footer.footer-main-home .footer-bottom .footer-social li:last-child {
+    margin-right: 0;
+}
+.rs-footer.footer-main-home .footer-bottom .copyright p a:hover {
+    color: #d20000;
+}
+
+.copyright p {
+    font-size: 15px;
+}
+.rs-footer.footer-main-home .footer-bottom .copyright p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+}
+.rs-footer.footer-main-home .footer-bottom .copyright p a {
+    transition: all 0.4s;
+    color: #ffffff;
+}
+.rs-footer.footer-main-home .footer-bottom .copyright p a:hover {
+    color: #d20000;
+}
