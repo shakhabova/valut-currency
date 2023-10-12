@@ -244,4 +244,10 @@
     color: #3B4052;
     position: relative;
     font-family: Epilogue;
+
+    cursor: pointer;
+}
+
+.full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
+    color: #d20000;
 }

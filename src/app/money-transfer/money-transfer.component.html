@@ -1,0 +1,184 @@
+<div class="rs-breadcrumbs img4">
+  <div class="container">
+    <div class="breadcrumbs-inner">
+      <h1 class="page-title">Money Transfer to Albania</h1>
+      <div class="breadcrumbs-title">
+        <span><a title="Help" href="home">Home</a></span>
+        <span class="post">Money Transfer to Albania</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="rs-choose choose-style1 pt-70 pb-70 md-pt-80 md-pb-80">
+  <div class="container">
+    <div class="row y-middle">
+      <div class="col-lg-5 md-mb-50">
+        <div class="service-charge-wrap">
+          <form action="#" class="charge-form">
+            <div class="row justify-content-center">
+              <div class="form-field" style="display: none">
+                <select
+                  id="ddlPaymentType"
+                  name="ddlPaymentType"
+                  style="border: none !important"
+                  onchange=""
+                ></select>
+              </div>
+              <div class="form-field" style="display: none">
+                <select
+                  id="ddlDeliveryType"
+                  name="ddlDeliveryType"
+                  style="border: none !important"
+                  onchange=""
+                ></select>
+              </div>
+              <div class="col-lg-12 col-md-12">
+                <div class="form-group">
+                  <label for="send_money">Sending to?</label>
+                  <select class="myselect">
+                    <option value="1">Albania</option>
+                  </select>
+                  <img
+                    src="assets/images/flags/all.png"
+                    alt="Sender country flag"
+                  />
+                  <span class="inputgbp">ALL</span>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12">
+                <div class="form-group">
+                  <label for="send_money">When you send GBP</label>
+                  <input
+                    type="number"
+                    id="Number1"
+                    name="send_money"
+                    placeholder="000"
+                  />
+                  <img src="assets/images/flags/gbp.png" alt="GBP flag" />
+                  <span class="inputgbp">GBP</span>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12">
+                <ul class="amount-currency-info">
+                  <li class="d-flex justify-content-between align-items-center">
+                    <div class="info-icon">
+                      <i class="ri-pause-line"></i>
+                      <strong id="txtTransferFee" class="txtTransferFee"
+                        >£0.00</strong
+                      >
+                    </div>
+                    <div class="info-right">
+                      <span>Transfer Fee</span>
+                    </div>
+                  </li>
+                  <li class="d-flex justify-content-between align-items-center">
+                    <div class="info-icon">
+                      <i class="ri-close-fill"></i>
+                      <strong class="txtExchangeRates">129.537 ALL</strong>
+                    </div>
+                    <div class="info-right">
+                      <span>Guaranted Rate</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-12 col-md-12">
+                <div class="form-group">
+                  <label for="send_money">Recipient gets</label>
+                  <input
+                    type="number"
+                    id="txtForeignCurrency"
+                    name="recieved_money"
+                    placeholder="000"
+                    onkeydown="CallTextChange1();"
+                    maxlength="15"
+                    class="form-control"
+                    aria-describedby="inputGroupPrepend"
+                    onchange="Getdata(2);txtForeignCurrency_Change();"
+                    onkeypress="return numericOnly(this);"
+                    autocomplete="off"
+                    oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  />
+                  <img
+                    src="assets/images/flags/all.png"
+                    class="ddlcurrency_flag"
+                    alt="Recipient country flag"
+                  />
+                  <select id="ddlcurrency" class="inputgbp">
+                    <option class="currency-name" value="33">ALL</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-12 text-center mb-2">
+                <p id="updatedate">Rates last updated on 06/02/2023 10:32 AM</p>
+              </div>
+              <div class="col-lg-12 col-md-12">
+                <div class="form-group form-btn">
+                  <a
+                    href="#"
+                    id="buy_currency"
+                    onclick="btncontinue_click()"
+                    class="btn style1 w-100 d-block"
+                    >Continue
+                  </a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-7 pl-50 md-pl-15 md-pr-15">
+        <div class="sec-title mb-30">
+          <h2 class="title">
+            Transferring money is very<br />Simple with Valut!!!
+          </h2>
+          <p class="mt-2">
+            Valut offers many ways of Sending Money Worldwide. We use the
+            Security and Technology of Online Money transfer to provide you with
+            Fast and Convenient ways of sending money to Families, Friends or
+            Business Associates all over the World.
+          </p>
+        </div>
+        <div class="services-item mb-20">
+          <div class="services-icon">
+            <img src="assets/images/icons/promise.png" alt="Rate Promise" />
+          </div>
+          <div class="services-content">
+            <h3 class="title">Rate Promise</h3>
+            <p class="services-txt">
+              We promise competitive rates, and deposit the amount confirmed to
+              you.
+            </p>
+          </div>
+        </div>
+        <div class="services-item mb-20">
+          <div class="services-icon">
+            <img
+              src="assets/images/icons/payments-accept.png"
+              alt="Payments we Accept"
+            />
+          </div>
+          <div class="services-content">
+            <h3 class="title">Payments we Accept</h3>
+            <p class="services-txt">
+              We accept Bank Transfer only. We may accept Card payments in the
+              near future.
+            </p>
+          </div>
+        </div>
+        <div class="services-item">
+          <div class="services-icon">
+            <img src="assets/images/icons/deposit.png" alt="Instant Deposit" />
+          </div>
+          <div class="services-content">
+            <h3 class="title">Instant Deposit</h3>
+            <p class="services-txt">
+              Our payout partner will make sure money is in the recipient's
+              account on time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
