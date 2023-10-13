@@ -15,6 +15,7 @@
 
 @import "assets/css/rs-spacing.css";
 @import "assets/css/responsive.css";
+@import "assets/css/steps.css";
 
 html, body {
     font-size: 16px;

@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { MoneyTransferComponent } from './money-transfer/money-transfer.component';
+import { HelpPageComponent } from './help-page/help-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
     FooterComponent,
-    MoneyTransferComponent
+    MoneyTransferComponent,
+    HelpPageComponent
   ],
   imports: [
     BrowserModule,
