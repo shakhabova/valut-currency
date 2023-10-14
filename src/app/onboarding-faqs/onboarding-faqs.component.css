@@ -1,0 +1,102 @@
+.rs-breadcrumbs.img4 {
+  background: url(/assets/images/breadcrumbs/inr-4.jpg);
+}
+.rs-breadcrumbs {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+.rs-breadcrumbs .breadcrumbs-inner {
+  padding: 65px 0 75px;
+}
+.rs-breadcrumbs .breadcrumbs-inner .page-title {
+  font-size: 42px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 0px;
+}
+.rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-title span a {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  position: relative;
+  color: #333;
+  padding-right: 15px;
+  margin-right: 15px;
+}
+.rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-title span a:before {
+  content: "";
+  background-color: #333;
+  height: 16px;
+  width: 1px;
+  position: absolute;
+  right: -1px;
+  top: 0px;
+  transform: rotate(26deg);
+  display: block !important;
+}
+.rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-title .post {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #d20000;
+}
+.rs-faq.faq-style1 {
+  position: relative;
+}
+.rs-faq.faq-style1 .faq-content .accordion {
+  border-width: 12px;
+}
+.rs-faq.faq-style1 .faq-content .accordion .card {
+  margin-bottom: 30px;
+  border: none;
+  background-color: #f1f6fc;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.02);
+}
+.rs-faq.faq-style1 .faq-content .accordion .card .card-header {
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  border: none;
+  background: #fff;
+}
+.rs-faq.faq-style1 .faq-content .accordion .card .card-header .card-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  line-height: 29px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 25px 17px 25px;
+  border-radius: 0px 10px 0px 10px;
+  background-color: #d20000;
+  color: #ffffff;
+}
+.rs-faq.faq-style1 .faq-content .accordion .card .card-header .card-link:after {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "\f068";
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 12px;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: right;
+  right: 20px;
+  margin-top: -2px;
+}
+.rs-faq.faq-style1 .faq-content .accordion .card .card-body {
+  background-color: #fff;
+  color: #666666;
+  font-size: 16px;
+  width: 100%;
+  padding: 30px 25px 30px 25px !important;
+}
+.fadeInUp {
+  animation-duration: 1.25s;
+  animation-name: fadeInUp;
+}
