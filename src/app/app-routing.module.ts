@@ -7,7 +7,8 @@ import { OnboardingFaqsComponent } from './onboarding-faqs/onboarding-faqs.compo
 import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
 
 const routes: Routes = [
-  { path: '', component: HomePageComponent },
+  { path: 'home-page', component: HomePageComponent },
+  { path: '',   redirectTo: '/home-page', pathMatch: 'full' },
   { path: 'money-transfer', component: MoneyTransferComponent },
   { path: 'help-page', component: HelpPageComponent },
   { path: 'onboarding-faqs', component: OnboardingFaqsComponent},
