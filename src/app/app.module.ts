@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MoneyTransferComponent } from './money-transfer/money-transfer.component';
 import { HelpPageComponent } from './help-page/help-page.component';
 import { OnboardingFaqsComponent } from './onboarding-faqs/onboarding-faqs.component';
+import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OnboardingFaqsComponent } from './onboarding-faqs/onboarding-faqs.compo
     FooterComponent,
     MoneyTransferComponent,
     HelpPageComponent,
-    OnboardingFaqsComponent
+    OnboardingFaqsComponent,
+    GeneralFaqsComponent
   ],
   imports: [
     BrowserModule,
