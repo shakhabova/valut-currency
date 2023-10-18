@@ -10,6 +10,7 @@ import { HelpPageComponent } from './help-page/help-page.component';
 import { OnboardingFaqsComponent } from './onboarding-faqs/onboarding-faqs.component';
 import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ReferAFriendComponent } from './refer-a-friend/refer-a-friend.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     HelpPageComponent,
     OnboardingFaqsComponent,
     GeneralFaqsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ReferAFriendComponent
   ],
   imports: [
     BrowserModule,

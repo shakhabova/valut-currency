@@ -6,6 +6,7 @@ import { HelpPageComponent } from './help-page/help-page.component';
 import { OnboardingFaqsComponent } from './onboarding-faqs/onboarding-faqs.component';
 import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ReferAFriendComponent } from './refer-a-friend/refer-a-friend.component';
 
 const routes: Routes = [
   { path: 'home-page', component: HomePageComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'onboarding-faqs', component: OnboardingFaqsComponent},
   { path: 'general-faqs', component: GeneralFaqsComponent },
   { path: 'contact-us', component: ContactUsComponent},
+  { path: 'refer-a-friend', component: ReferAFriendComponent},
 ];
 
 @NgModule({
