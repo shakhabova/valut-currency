@@ -11,6 +11,7 @@ import { OnboardingFaqsComponent } from './onboarding-faqs/onboarding-faqs.compo
 import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReferAFriendComponent } from './refer-a-friend/refer-a-friend.component';
+import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ReferAFriendComponent } from './refer-a-friend/refer-a-friend.component
     OnboardingFaqsComponent,
     GeneralFaqsComponent,
     ContactUsComponent,
-    ReferAFriendComponent
+    ReferAFriendComponent,
+    TermsAndConditionsComponent
   ],
   imports: [
     BrowserModule,

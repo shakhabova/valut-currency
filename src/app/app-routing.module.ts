@@ -7,6 +7,7 @@ import { OnboardingFaqsComponent } from './onboarding-faqs/onboarding-faqs.compo
 import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReferAFriendComponent } from './refer-a-friend/refer-a-friend.component';
+import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 
 const routes: Routes = [
   { path: 'home-page', component: HomePageComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'general-faqs', component: GeneralFaqsComponent },
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'refer-a-friend', component: ReferAFriendComponent},
+  { path: 'terms-and-conditions', component: TermsAndConditionsComponent},
 ];
 
 @NgModule({
