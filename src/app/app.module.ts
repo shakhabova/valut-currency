@@ -12,6 +12,7 @@ import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReferAFriendComponent } from './refer-a-friend/refer-a-friend.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-co
     GeneralFaqsComponent,
     ContactUsComponent,
     ReferAFriendComponent,
-    TermsAndConditionsComponent
+    TermsAndConditionsComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,
