@@ -5,6 +5,7 @@ import { MoneyTransferComponent } from './money-transfer/money-transfer.componen
 import { HelpPageComponent } from './help-page/help-page.component';
 import { OnboardingFaqsComponent } from './onboarding-faqs/onboarding-faqs.component';
 import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const routes: Routes = [
   { path: 'home-page', component: HomePageComponent },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'help-page', component: HelpPageComponent },
   { path: 'onboarding-faqs', component: OnboardingFaqsComponent},
   { path: 'general-faqs', component: GeneralFaqsComponent },
+  { path: 'contact-us', component: ContactUsComponent},
 ];
 
 @NgModule({

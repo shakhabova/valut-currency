@@ -9,6 +9,7 @@ import { MoneyTransferComponent } from './money-transfer/money-transfer.componen
 import { HelpPageComponent } from './help-page/help-page.component';
 import { OnboardingFaqsComponent } from './onboarding-faqs/onboarding-faqs.component';
 import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GeneralFaqsComponent } from './general-faqs/general-faqs.component';
     MoneyTransferComponent,
     HelpPageComponent,
     OnboardingFaqsComponent,
-    GeneralFaqsComponent
+    GeneralFaqsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
