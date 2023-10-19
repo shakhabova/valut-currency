@@ -9,6 +9,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReferAFriendComponent } from './refer-a-friend/refer-a-friend.component';
 import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-conditions.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { ComplaintPolicyComponent } from './complaint-policy/complaint-policy.component';
 
 const routes: Routes = [
   { path: 'home-page', component: HomePageComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'refer-a-friend', component: ReferAFriendComponent},
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent},
   { path: 'privacy-policy', component: PrivacyPolicyComponent},
+  { path: 'complaint-policy', component: ComplaintPolicyComponent},
 ];
 
 @NgModule({
