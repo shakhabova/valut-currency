@@ -15,6 +15,8 @@ import { TermsAndConditionsComponent } from './terms-and-conditions/terms-and-co
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ComplaintPolicyComponent } from './complaint-policy/complaint-policy.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
+import { OnbordingComponent } from './onbording/onbording.component';
+import { LevenessCheckComponent } from './leveness-check/leveness-check.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     TermsAndConditionsComponent,
     PrivacyPolicyComponent,
     ComplaintPolicyComponent,
-    ScrollTopComponent
+    ScrollTopComponent,
+    OnbordingComponent,
+    LevenessCheckComponent
   ],
   imports: [
     BrowserModule,

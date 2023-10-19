@@ -9,6 +9,7 @@ import * as bootstrap from 'bootstrap';
 })
 
 export class AppComponent implements AfterViewInit {
+
   @ViewChild('helloModal') helloEl?: ElementRef;
   modal?: bootstrap.Modal;
   ngAfterViewInit() {
