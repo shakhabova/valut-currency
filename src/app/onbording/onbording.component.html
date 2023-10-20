@@ -184,6 +184,7 @@
               
             </fieldset>
             <app-liveness-check *ngIf="currentStep === 2"></app-liveness-check>
+            <app-finish-check *ngIf="currentStep === 3"></app-finish-check>
             <button 
                 class="prev action-button"
                 (click)="prevStep()"

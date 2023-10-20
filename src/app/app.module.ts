@@ -17,6 +17,7 @@ import { ComplaintPolicyComponent } from './complaint-policy/complaint-policy.co
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 import { OnbordingComponent } from './onbording/onbording.component';
 import { LivenessCheckComponent } from './leveness-check/liveness-check.component';
+import { FinishCheckComponent } from './finish-check/finish-check.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { LivenessCheckComponent } from './leveness-check/liveness-check.componen
     ComplaintPolicyComponent,
     ScrollTopComponent,
     OnbordingComponent,
-    LivenessCheckComponent
+    LivenessCheckComponent,
+    FinishCheckComponent
   ],
   imports: [
     BrowserModule,
