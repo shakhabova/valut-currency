@@ -1,4 +1,6 @@
-import { Component, HostListener } from '@angular/core';
+import { Component } from '@angular/core';
+import { WindowScrolledService } from '../window-scrolled.service';
+import { map, tap } from 'rxjs';
 
 @Component({
   selector: 'app-scroll-top',
@@ -6,12 +8,12 @@ import { Component, HostListener } from '@angular/core';
   styleUrls: ['./scroll-top.component.css'],
 })
 export class ScrollTopComponent {
-  windowScrolled: boolean | undefined;
+  windowScrolled$ = this.windowScrolledService.windowScrolled$
+    .pipe(
+      map(scrolled => scrolled ? 'block' : 'none'),
+    );
 
-  @HostListener('window:scroll', [])
-  onWindowScroll() {
-    this.windowScrolled = !!window.scrollY;
-  }
+  constructor(private windowScrolledService: WindowScrolledService) {}
   
   scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' })

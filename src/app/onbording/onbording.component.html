@@ -56,19 +56,19 @@
             <!-- progressbar -->
             <ul id="progressbar">
               <a href="onboarding">
-                <li class="active" id="confirm">
+                <li id="confirm" [class.active]="currentStep >= 1">
                   <strong>1) Scanning Your Id</strong>
                 </li>
               </a>
               <a href="livenesscheck">
-                <li id="confirm"><strong>2) Liveness Check</strong></li>
+                <li id="confirm" [class.active]="currentStep >= 2"><strong>2) Liveness Check</strong></li>
               </a>
               <a href="finish">
-                <li id="confirm"><strong>Finish</strong></li>
+                <li id="confirm" [class.active]="currentStep === 3"><strong>Finish</strong></li>
               </a>
             </ul>
             <!-- fieldsets -->
-            <fieldset>
+            <fieldset *ngIf="currentStep === 1">
               <div class="form-card">
                 <div class="row justify-content-center">
                   <h4 class="mb-4">How To Scan Id?</h4>
@@ -181,10 +181,23 @@
                   </div>
                 </div>
               </div>
-              <a href="livenesscheck" type="button" class="next action-button"
-                >Next</a
-              >
+              
             </fieldset>
+            <app-liveness-check *ngIf="currentStep === 2"></app-liveness-check>
+            <button 
+                class="prev action-button"
+                (click)="prevStep()"
+                *ngIf="currentStep > 1"
+            >
+                Previous
+            </button>
+            <button 
+                class="next action-button"
+                (click)="nextStep()"
+                *ngIf="currentStep < maxSteps"
+            >
+                Next
+            </button>
           </div>
         </div>
       </div>

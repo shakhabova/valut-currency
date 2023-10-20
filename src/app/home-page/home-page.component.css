@@ -283,21 +283,7 @@ h2 {
   color: #666666;
   margin: 0;
 }
-ul {
-  list-style: outside none none;
-  margin: 0;
-  padding: 0;
-}
-dl,
-ol,
-ul {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-ol,
-ul {
-  padding-left: 2rem;
-}
+
 ul.check-lists li {
   padding-left: 35px;
   position: relative;

@@ -1,7 +1,7 @@
 <!--Scroll to top-->
 <div
   class="scroll-to-top"
-  [style.display]="windowScrolled ? 'block' : 'none'"
+  [style.display]="windowScrolled$ | async"
   (click)="scrollToTop()"
 >
   <i class="fa fa-angle-up"></i>

@@ -418,10 +418,10 @@
     border-top-right-radius: .25rem
 }
 
-/* .service_single_content {
+.service_single_content {
     border-radius: 10px;
     background-color: #fff;
-    background-image: url(../img/core-img/cards-bg.png);
+    /* background-image: url(../img/core-img/cards-bg.png); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -430,7 +430,7 @@
     border: none;
     padding: 40px 20px;
     margin-bottom: 30px !important
-} */
+}
 
 .service_single_content {
     position: relative;

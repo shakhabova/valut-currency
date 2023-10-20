@@ -6,7 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./onbording.component.css']
 })
 export class OnbordingComponent {
-  public currentStep = 0;
+  public currentStep = 1;
+  public readonly maxSteps = 3;
   
+  public prevStep(): void {
+    this.currentStep -= 1;
+  }
 
+  public nextStep(): void {
+    this.currentStep += 1;
+  }
 }
