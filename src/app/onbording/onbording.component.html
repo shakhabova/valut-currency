@@ -55,16 +55,20 @@
           <div id="msform">
             <!-- progressbar -->
             <ul id="progressbar">
-              <a href="onboarding">
+              <a (click)="setStep(1)">
                 <li id="confirm" [class.active]="currentStep >= 1">
                   <strong>1) Scanning Your Id</strong>
                 </li>
               </a>
-              <a href="livenesscheck">
-                <li id="confirm" [class.active]="currentStep >= 2"><strong>2) Liveness Check</strong></li>
+              <a (click)="setStep(2)">
+                <li id="confirm" [class.active]="currentStep >= 2">
+                  <strong>2) Liveness Check</strong>
+                </li>
               </a>
-              <a href="finish">
-                <li id="confirm" [class.active]="currentStep === 3"><strong>Finish</strong></li>
+              <a (click)="setStep(3)">
+                <li id="confirm" [class.active]="currentStep === 3">
+                  <strong>Finish</strong>
+                </li>
               </a>
             </ul>
             <!-- fieldsets -->
@@ -181,24 +185,27 @@
                   </div>
                 </div>
               </div>
-              
             </fieldset>
             <app-liveness-check *ngIf="currentStep === 2"></app-liveness-check>
             <app-finish-check *ngIf="currentStep === 3"></app-finish-check>
-            <button 
+            <div class="mt-24">
+              <a
+                type="button"
                 class="prev action-button"
                 (click)="prevStep()"
-                *ngIf="currentStep > 1"
-            >
+                *ngIf="currentStep > 1 && currentStep < 3"
+              >
                 Previous
-            </button>
-            <button 
+              </a>
+              <a
+                type="button"
                 class="next action-button"
                 (click)="nextStep()"
                 *ngIf="currentStep < maxSteps"
-            >
+              >
                 Next
-            </button>
+              </a>
+            </div>
           </div>
         </div>
       </div>

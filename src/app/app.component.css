@@ -134,6 +134,12 @@
   display: none;
 }
 
+@media only screen and (max-width: 991px) {
+  .hamburger {
+      display: block;
+  }
+}
+
 .menu-area .quote-button {
   font-size: 15px;
   background: #d20000;
@@ -239,4 +245,30 @@
 
 .rs-menu ul.nav-menu li a:hover {
   color: #d20000;
+}
+
+.right_menu_togle {
+  background-image: linear-gradient(90deg, #e2e9f7 0%, #ffffff 100%);
+  padding: 46px 60px 50px 50px;
+  font-size: 1.15em;
+  max-width: 480px;
+  width: 100%;
+  right: -500px;
+  z-index: 999999;
+  transition: all 0.3s ease;
+  position: fixed;
+  overflow-y: auto;
+}
+
+.mobile-navbar-menu .nav-menu li {
+  position: relative;
+}
+
+.mobile-navbar-menu .nav-menu li a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  display: block;
+  color: #333;
+  padding: 10px 0;
+  line-height: 30px;
+  width: 100%;
 }

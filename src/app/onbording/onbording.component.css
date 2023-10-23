@@ -1,33 +1,18 @@
-.rs-breadcrumbs.img4 {
-    background: url(/assets/images/breadcrumbs/inr-4.jpg);
+.action-button {
+  width: 100px;
+  background: #d20000;
+  font-weight: 400;
+  color: #fff;
+  border: 0 none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 30px;
+  margin: 10px 5px 10px 0;
+  font-size: 14px;
+  -webkit-appearance: none;
+  border: 1px solid #d20000;
 }
-.rs-breadcrumbs {
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center center !important;
-}
-.rs-breadcrumbs .breadcrumbs-inner {
-    padding: 65px 0 75px;
-}
-.rs-breadcrumbs .breadcrumbs-inner .page-title {
-    font-size: 42px;
-    line-height: 54px;
-    font-weight: 700;
-    color: #333;
-    margin: 0 0 0px;
-}
-.rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-title span a {
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 500;
-    position: relative;
-    color: #333;
-    padding-right: 15px;
-    margin-right: 15px;
-}
-.rs-breadcrumbs .breadcrumbs-inner .breadcrumbs-title .post {
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 500;
-    color: #d20000;
+
+#progressbar a {
+    cursor: pointer;
 }

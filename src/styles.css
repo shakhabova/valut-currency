@@ -111,3 +111,22 @@ button:focus {
 .lower-alpha-list {
     list-style: lower-alpha;
 }
+
+.offwrap {
+  cursor: auto;
+  width: 100%;
+  left: 100%;
+  transition: all 0.8s ease-out 0s;
+  position: fixed;
+  background: #fff;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  opacity: .8;
+  z-index: 999;
+}
+
+body.nav-expanded .offwrap {
+  left: 0%;
+  transition: all 0.8s ease-out 0s;
+}

@@ -16,4 +16,8 @@ export class OnbordingComponent {
   public nextStep(): void {
     this.currentStep += 1;
   }
+
+  public setStep(step: number): void {
+    this.currentStep = step;
+  }
 }

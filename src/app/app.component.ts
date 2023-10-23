@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { WindowScrolledService } from './window-scrolled.service';
+import { Observable } from 'rxjs';
 
 
 @Component({
@@ -8,4 +10,12 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
+  public windowScrolled$: Observable<boolean> = this.windowScrolledService.windowScrolled$;
+
+  constructor(private windowScrolledService: WindowScrolledService) {}
+
+  public toggleExpander(ev: MouseEvent): void {
+    ev.preventDefault();
+    document.body.classList.toggle('nav-expanded');
+  }
 }

@@ -14,7 +14,6 @@ import { OnbordingComponent } from './onbording/onbording.component';
 
 const routes: Routes = [
   { path: 'home-page', component: HomePageComponent },
-  { path: '',   redirectTo: '/home-page', pathMatch: 'full' },
   { path: 'money-transfer', component: MoneyTransferComponent },
   { path: 'help-page', component: HelpPageComponent },
   { path: 'onboarding-faqs', component: OnboardingFaqsComponent},
@@ -25,6 +24,7 @@ const routes: Routes = [
   { path: 'privacy-policy', component: PrivacyPolicyComponent},
   { path: 'complaint-policy', component: ComplaintPolicyComponent},
   { path: 'onbording', component: OnbordingComponent},
+  { path: '',   redirectTo: '/home-page', pathMatch: 'full' },
 ];
 
 @NgModule({

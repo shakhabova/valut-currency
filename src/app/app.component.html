@@ -1,3 +1,4 @@
+<div class="offwrap"></div>
 <div class="full-width-header">
   <!--Header Start-->
   <header id="rs-header" class="rs-header">
@@ -48,7 +49,7 @@
     <!-- Toolbar Area End -->
 
     <!-- Menu Start -->
-    <div class="menu-area menu-sticky">
+    <div class="menu-area menu-sticky" [class.sticky]="windowScrolled$ | async">
       <div class="container">
         <div class="row-table">
           <div class="col-cell header-logo">
@@ -95,7 +96,7 @@
                   <a class="quote-button" href="#">Login</a>
                 </li>
                 <li class="hamburger">
-                  <a id="nav-expander" class="nav-expander bar" href="#">
+                  <a id="nav-expander" class="nav-expander bar" href="#" (click)="toggleExpander($event)">
                     <div class="bar">
                       <span class="dot1"></span>
                       <span class="dot dot2"></span>
@@ -120,7 +121,7 @@
     <!-- Canvas Mobile Menu start -->
     <nav class="right_menu_togle mobile-navbar-menu" id="mobile-navbar-menu">
       <div class="close-btn hash-has-sub">
-        <a id="nav-close2" class="nav-close hash">
+        <a id="nav-close2" class="nav-close hash" (click)="toggleExpander($event)">
           <div class="line">
             <span class="line1"></span>
             <span class="line2"></span>
@@ -129,12 +130,12 @@
       </div>
       <ul class="nav-menu">
         <li class="hash-has-sub">
-          <a href="money-transfer-to-albania" class="hash"
+          <a routerLink="/money-transfer" class="hash"
             >Money Transfer to Albania</a
           >
         </li>
         <li class="current-menu-item hash-has-sub">
-          <a href="help" class="hash">Help</a>
+          <a routerLink="/help-page" class="hash">Help</a>
         </li>
         <li class="hash-has-sub">
           <a href="#" class="hash">Sign Up</a>
