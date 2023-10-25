@@ -13,17 +13,17 @@ import { ComplaintPolicyComponent } from './complaint-policy/complaint-policy.co
 import { OnbordingComponent } from './onbording/onbording.component';
 
 const routes: Routes = [
-  { path: 'home-page', component: HomePageComponent },
-  { path: 'money-transfer', component: MoneyTransferComponent },
-  { path: 'help-page', component: HelpPageComponent },
-  { path: 'onboarding-faqs', component: OnboardingFaqsComponent},
-  { path: 'general-faqs', component: GeneralFaqsComponent },
-  { path: 'contact-us', component: ContactUsComponent},
-  { path: 'refer-a-friend', component: ReferAFriendComponent},
-  { path: 'terms-and-conditions', component: TermsAndConditionsComponent},
-  { path: 'privacy-policy', component: PrivacyPolicyComponent},
-  { path: 'complaint-policy', component: ComplaintPolicyComponent},
-  { path: 'onbording', component: OnbordingComponent},
+  { path: 'home-page', component: HomePageComponent, title: 'Money Transfer to Albania | Send Money Online' },
+  { path: 'money-transfer', component: MoneyTransferComponent, title: 'Money Transfer to Albania | Free Money Transfer to Albania' },
+  { path: 'help-page', component: HelpPageComponent, title: 'Need help? We are here to support you at every step' },
+  { path: 'onboarding-faqs', component: OnboardingFaqsComponent, title: 'What is KYC? Know Your Customer'},
+  { path: 'general-faqs', component: GeneralFaqsComponent, title: 'Free Transfer to Albania | Send Money to Albania' },
+  { path: 'contact-us', component: ContactUsComponent, title: 'Contact Us | Smart way to Transfer Money to Albania'},
+  { path: 'refer-a-friend', component: ReferAFriendComponent, title: 'Refer A Friend | Valut'},
+  { path: 'terms-and-conditions', component: TermsAndConditionsComponent, title: 'Terms and Conditions | Valut'},
+  { path: 'privacy-policy', component: PrivacyPolicyComponent,title: 'Privacy Policy | Valut'},
+  { path: 'complaint-policy', component: ComplaintPolicyComponent, title: 'Complaint Policy | Valut '},
+  { path: 'onbording', component: OnbordingComponent, title: 'How to scan your photo ID on our app?'},
   { path: '',   redirectTo: '/home-page', pathMatch: 'full' },
 ];
 
