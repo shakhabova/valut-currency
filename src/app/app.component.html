@@ -130,18 +130,18 @@
       </div>
       <ul class="nav-menu">
         <li class="hash-has-sub">
-          <a routerLink="/money-transfer" class="hash"
+          <a (click)="navigate($event, '/money-transfer')" class="hash"
             >Money Transfer to Albania</a
           >
         </li>
         <li class="current-menu-item hash-has-sub">
-          <a routerLink="/help-page" class="hash">Help</a>
+          <a (click)="navigate($event, '/help-page')" class="hash">Help</a>
         </li>
         <li class="hash-has-sub">
-          <a href="#" class="hash">Sign Up</a>
+          <a (click)="navigate($event, '#')" class="hash">Sign Up</a>
         </li>
         <li class="btn-quote hash-has-sub">
-          <a class="quote-button hash" href="#">Login</a>
+          <a class="quote-button hash" (click)="navigate($event, '#')">Login</a>
         </li>
       </ul>
       <!-- //.nav-menu -->
